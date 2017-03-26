@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-		id          = "businesscard"
+		id          = "wifi"
         version     = "1.0.0" >
 
-    <name>Business card</name>
-    <description>My business card</description>
+    <name>Wifi</name>
+    <description>Status sieci</description>
     <author href="https://github.com/Butryn" email="roksana.butryn@gmail.com">
 		Roksana Butryn
 	</author>
@@ -13,5 +13,7 @@
 	
 	<plugin name="cordova-plugin-device" spec="~1.1.4" />
 	<plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
+
+<plugin name="cordova-plugin-network-information" spec="~1.3.2" />
 
 </widget>
