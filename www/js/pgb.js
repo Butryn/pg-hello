@@ -27,7 +27,7 @@ function personalData() {
 			'=====' + '\n' +
 			'Roksana Butryn    '         + '\n' + 
 			'Studnetka Informatyki Stosowanej : '   + '\n' + 
-			'Nr albumu 179849 '  + '\n' + ;
+			'Nr albumu 179849 '  + '\n';
 
 	navigator.notification.alert(info);
 	
