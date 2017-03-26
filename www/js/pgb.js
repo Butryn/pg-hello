@@ -7,9 +7,6 @@ function onDeviceReady() {
 	 checkConnection();
 }
 
- function onDeviceReady() {
-       
-    }
 
       function checkConnection() {
     var networkState = navigator.connection.type;
